@@ -2,17 +2,23 @@
   HEADER
 */
 
-.logo{
+
+header section{
+  height: 80px;
+  line-height: 80px;
 }
 
-.header-menu-left{
+.wdth10{   
+  text-align: center;
 }
 
-.header-menu-right{
-
+.logo a img{
+  vertical-align:middle;
 }
 
-.BUTTONTOCHANGE{
+.header-menu-right li, .header-menu-left li{
+  display: inline-block;
+  padding: 0 30px;
 }
 
 /*
