@@ -1,0 +1,98 @@
+/*
+  HEADER
+*/
+
+.logo{
+}
+
+.header-menu-left{
+}
+
+.header-menu-right{
+
+}
+
+.BUTTONTOCHANGE{
+}
+
+/*
+  /HEADER
+*/
+
+
+
+/*
+  JUMBOTRON
+*/
+
+.jumbotron-text-image-container{
+  width: 70%;
+  margin: 200px auto;
+}
+
+/*
+  /JUMBOTRON
+*/
+
+
+/*
+  MAIN
+*/
+
+/* CONTROLLARE QUESTO NOME CLASSE<---- */
+.main-container{
+  width: 60%;
+  margin:100px auto 0 auto
+}
+
+
+/* PRIMA SEZIONE */
+
+
+.table-under-col{
+  margin: 50px auto 100px auto;
+}
+
+/* /PRIMA SEZIONE */
+
+
+/* SECONDA SEZIONE */
+
+
+/* /SECONDA SEZIONE */
+
+
+/* TERZA SEZIONE */
+
+
+/* /TERZA SEZIONE */
+
+
+/* SEZIONE F.A.Q */
+
+
+/* /SEZIONE F.A.Q */
+
+
+/*
+  /MAIN
+*/
+
+
+
+/*
+  FOOTER
+*/
+
+.footer-container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+
+/*
+  FOOTER
+*/
