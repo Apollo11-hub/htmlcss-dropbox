@@ -20,15 +20,16 @@ header section{
   vertical-align:middle;
 }
 
-.header-menu-right li, .header-menu-left li{
+
+.header-menu-left li, .bonus-fix{
   display: inline-block;
   padding: 0 30px;
   font-weight: 500;
 }
 
-.header-menu-left li:hover, .header-menu-right li:hover{
+.bonus-fix:hover, .header-menu-left li:hover{
   border-bottom:3px solid black;
-}
+} 
 
 /*
   /HEADER
@@ -244,6 +245,8 @@ header section{
 
 
 /* TERZA SEZIONE */
+
+
 .third-section-title-container{
   width: 70%;
   margin: 60px auto;
@@ -256,7 +259,6 @@ header section{
 }
 
 .third-section-title-container a{
-  
   color:#0262ff ;
 }
 
@@ -302,6 +304,11 @@ background-color: #d5001f ;
 
 .yellow-back{
   background-color:#ffd830;
+}
+
+.col-main-x-special{
+  background-color: #f5f5f5;
+  padding-bottom: 32px;
 }
 
 .col-main-x-special div{

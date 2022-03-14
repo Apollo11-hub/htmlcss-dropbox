@@ -1,0 +1,78 @@
+/* ------------------------------PRIMO BONUS */
+
+
+
+
+.special-bonus-window:hover .bonus{ 
+  visibility: visible;
+  
+}
+
+.bonus{
+  visibility: hidden;
+  position: absolute;
+  top: 73px;
+  right: 425px;
+  z-index: 99;
+  line-height: 40px;
+  background-color: white;
+}
+.bonus ul{
+  vertical-align: middle;
+  margin: 20px 0;
+}
+.bonus li{
+  margin: 10px 0;
+  padding: 0px 40px;
+}
+
+.bonus li:hover{
+  background-color: #d8d8d8;
+}
+
+
+
+
+/* -----------------------------/PRIMO BONUS */
+
+.faq-section i:active{
+  transform: rotate(180deg);
+}
+
+.fa-chevron-down:active #special-bonus-secondo{
+  display: block;
+}  
+
+#special-bonus-secondo{
+  display: none;
+  width: 80%;
+  line-height: 30px;
+  padding-bottom: 30px;
+  border: none;
+  font-weight: initial;
+  color: lightgray;
+}
+
+
+
+/* --------------------------------SECONDO BONUS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------/SECONDO BONUS */
