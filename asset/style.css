@@ -85,7 +85,7 @@ header section{
 
 /* CONTROLLARE QUESTO NOME CLASSE<---- */
 .main-container{
-  width: 60%;
+  width: 70%;
   margin:300px auto 0 auto
 }
 
@@ -323,8 +323,27 @@ background-color: #d5001f ;
 
 /* SEZIONE F.A.Q */
 
-  
+  .faq-section h2{
+    font-size: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid grey;
+  }
 
+  .faq-section div{
+    border-bottom: 1px solid grey ;
+    line-height: 100px;
+  }
+
+  .faq-section span{
+    font-weight: 600;
+  }
+
+  .faq-section i {
+    line-height: 100px;
+    float: right;
+    vertical-align: middle;
+    margin-right: 30px;
+  }
 /* /SEZIONE F.A.Q */
 
 
@@ -337,15 +356,37 @@ background-color: #d5001f ;
 /*
   FOOTER
 */
+footer{
+  background-color: black;
+}
 
 .footer-container{
   width: 90%;
   margin: 0 auto;
+  padding: 100px ;
 }
 
+.footer-container h3{
+  color: white;
+  padding-bottom:20px ;
+}
 
+.footer-container ul{
 
+  margin-bottom: 50px;
+}
 
+.footer-container li{
+  padding: 10px 0;
+  color: white;
+}
+
+.footer-container span{
+  display: inline-block;
+  padding: 50px 30px 30px 0;
+  border-top: 1px solid #9b9b9b;
+  color:#9b9b9b;
+}
 
 /*
   FOOTER
