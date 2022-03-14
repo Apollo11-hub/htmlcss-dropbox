@@ -17,7 +17,12 @@ header section{
 }
 
 .logo a img{
+  display:inline-block;
   vertical-align:middle;
+}
+
+.header-menu-left,.header-menu-right ul{
+  display: block;
 }
 
 .header-menu-right li, .header-menu-left li{
@@ -95,6 +100,29 @@ header section{
   font-size: 40px;
 }
 
+.radius-button{
+  margin:40px auto;
+}
+
+.radius-button p{
+  display: inline-block;
+  padding-right: 40px;
+  
+}
+
+.radius-button span{
+  display: inline-block;
+  border: 1px solid grey;
+  padding:8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+#radius-button-blue{
+  border: 4px solid #0262ff;
+  padding: 5px;
+}
+
 .col-title{
   padding: 20px;
   text-align: center;
@@ -135,6 +163,10 @@ header section{
   text-align: center;
   display: block;
   margin-bottom: 30px;
+}
+
+.bottom-col-part h3{
+  padding-bottom: 30px;
 }
 
 .bottom-col-part ul{
