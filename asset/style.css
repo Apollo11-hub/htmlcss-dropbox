@@ -17,12 +17,7 @@ header section{
 }
 
 .logo a img{
-  display:inline-block;
   vertical-align:middle;
-}
-
-.header-menu-left,.header-menu-right ul{
-  display: block;
 }
 
 .header-menu-right li, .header-menu-left li{
