@@ -21,8 +21,22 @@ ul{
   background-color: #0061ff;
 }
 
+.button:hover{
+  background-color:#0061ff;;
+  opacity: 0.6;
+}
 
-
+.button-secondo{
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+/* -------- */
+.col-main-x{
+  margin:auto 6%;
+}
+/* ----------- */
 .float-left{
   float: left;
 }
@@ -33,7 +47,7 @@ ul{
 
 /* DA MODIFICARE!!!!!!!!! */
 .margin-bottom{
-  margin-bottom:50px;
+  margin-bottom:150px;
 }
 
 
@@ -42,6 +56,9 @@ ul{
 }
 .wdth20{
   width: 20%;
+}
+.wdth28{
+  width: 28%;
 }
 .wdth30{
   width: 30%;
@@ -52,20 +69,29 @@ ul{
 .wdth50{
   width: 50%;
 }
+.wdth60{
+  width: 50%;
+}
+.wdth70{
+  width: 70%;
+}
 .wdth100{
   width: 100%;
 }
-.wdthjesus{
-  width: 33%;
+
+#grey{
+  color:#e2e2e5; 
+}
+
+.little-border{
+  display: inline-block;
+  border-bottom: 1px solid grey;
+  padding-bottom: 40px;
 }
 
 
-.col-title{
-}
-
-
-.col-main-x{
-  margin:auto .5%;
+.special-class-active{
+  box-shadow: 0 0 0 10px rgba(255, 253, 253, 0.4) inset;
 }
 
 
@@ -95,7 +121,13 @@ ul{
   min-height: 300px;
 }
 
+
+
 .h600{
   min-height: 600px;
+}
+
+.h1300{
+  min-height: 1300px;
 }
 
