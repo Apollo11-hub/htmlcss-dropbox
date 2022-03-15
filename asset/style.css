@@ -12,7 +12,8 @@ header section{
 }
 
 .wdth10{   
-  text-align: center;
+  text-align: right;
+  padding-right: 20px;
 }
 
 header a img{
@@ -21,7 +22,7 @@ header a img{
 }
 
 .wdth-calc{
-  width: calc(50% - 167px);
+  width: 50%;
 }
 
 .header-menu-left li, .bonus-fix{
@@ -270,12 +271,31 @@ header a img{
 
 .center-logo-img{
   text-align: center;
-  line-height:285px;
+  line-height:15vw;
   }
 
-.special-width img{
+.special-width{
+  width: 100vw;
+}
+
+.width-container-sponsor{
+  width:30vw;
+}
+  
+.width-container-text-sponsor{
+  width: 40vmax;
+  height: 30vmax;
+}
+  
+.width-sponsor{
+  width: 15vw;
+  height: 15vw;
+}
+  
+.width-sponsor img{
   vertical-align: middle;
-  width: 50%;
+  width: 7.5vw;
+  height: 7.5vw;
   filter: invert(100%);
 }
 
@@ -303,7 +323,6 @@ background-color: #d5001f ;
   background-color: #b4d0e7;
 }
 
-
 .darkblue-back{
   background-color: #0d2481;
 }
@@ -314,7 +333,6 @@ background-color: #d5001f ;
 
 .col-main-x-special{
   background-color: #f5f5f5;
-  padding-bottom: 32px;
 }
 
 .col-main-x-special div{
@@ -324,6 +342,13 @@ background-color: #d5001f ;
 .col-main-x-special img{
   width: 30%;
   filter: initial;
+}
+
+#hr-alternative{
+  width: 100px;
+  margin: 30px 0;
+  height: 2px;
+  background-color: rgb(202, 201, 201);
 }
 
 .col-main-x-special p{

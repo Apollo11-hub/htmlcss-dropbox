@@ -44,10 +44,17 @@ ul{
 
 /* -------- */
 .col-main-x{
-  margin:auto 6%;
+  margin:auto 8%;
 }
 /* ----------- */
 
+.h600{
+  min-height: 600px;
+}
+
+.h1300{
+  min-height: 1300px;
+}
 
 .float-left{
   float: left;
@@ -57,38 +64,8 @@ ul{
   float: right;
 }
 
-/* DA MODIFICARE!!!!!!!!! */
 .margin-bottom{
   margin-bottom:150px;
-}
-
-
-.wdth10{
-  width: 10%;
-}
-.wdth20{
-  width: 20%;
-}
-.wdth28{
-  width: 28%;
-}
-.wdth30{
-  width: 30%;
-}
-.wdth40{
-  width: 40%;
-}
-.wdth50{
-  width: 50%;
-}
-.wdth60{
-  width: 50%;
-}
-.wdth70{
-  width: 70%;
-}
-.wdth100{
-  width: 100%;
 }
 
 .grey{
@@ -101,55 +78,42 @@ ul{
   padding-bottom: 40px;
 }
 
-
 .special-class-active{
   box-shadow: 0 0 0 10px rgba(255, 253, 253, 0.4) inset;
 }
 
 
-
-
-
-/* De-bug uti */
-.debug{
-  background-color: rgba(255, 0, 0, .2);
-  /* border: 1px solid black; */
+/* WIDTH UTILITIES */
+.wdth10{
+  width: 10%;
 }
 
-.h80{
-  min-height: 80px;
+.wdth20{
+  width: 20%;
 }
 
-.h150{
-  min-height: 150px;
+.wdth28{
+  width: 28%;
 }
 
-.h300{
-  min-height: 300px;
+.wdth30{
+  width: 30%;
 }
 
-
-
-.h600{
-  min-height: 600px;
+.wdth40{
+  width: 40%;
 }
 
-.h1300{
-  min-height: 1300px;
+.wdth50{
+  width: 50%;
 }
 
-
-
-
-
-.try{
-  width: 12.5vw;
+.wdth70{
+  width: 70%;
 }
 
-.prova{
-  width: 25vw;
+.wdth100{
+  width: 100%;
 }
+/* WIDTH UTILITIES */
 
-.provatry{
-  width: 50vw;
-}
