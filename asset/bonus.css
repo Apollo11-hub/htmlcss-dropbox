@@ -35,13 +35,13 @@
 
 /* -----------------------------/PRIMO BONUS */
 
-.faq-section i:active{
+.hover-special-bonus:hover i{
   transform: rotate(180deg);
 }
 
-.fa-chevron-down:active #special-bonus-secondo{
+.hover-special-bonus:hover #special-bonus-secondo{
   display: block;
-}  
+}
 
 #special-bonus-secondo{
   display: none;

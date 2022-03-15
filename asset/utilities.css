@@ -91,7 +91,7 @@ ul{
   width: 100%;
 }
 
-#grey{
+.grey{
   color:#959599; 
 }
 
@@ -138,3 +138,18 @@ ul{
   min-height: 1300px;
 }
 
+
+
+
+
+.try{
+  width: 12.5vw;
+}
+
+.prova{
+  width: 25vw;
+}
+
+.provatry{
+  width: 50vw;
+}
